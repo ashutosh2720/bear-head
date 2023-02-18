@@ -1,0 +1,183 @@
+.container {
+    height: 20vh;
+    width: 25vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-left: 500px;
+    margin-top: 200px;
+}
+
+.head {
+    height: 200px;
+    width: 250px;
+    background-color: #EE9A4D;
+    border-radius: 150px 150px 100px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+.left-ear {
+    height: 90px;
+    width: 70px;
+    background-color: #EE9A4D;
+    display: flex;
+    position: relative;
+    top: -70px;
+    left: -145px;
+    border-radius: 200px 370px 50px 250px;
+}
+
+.right-ear {
+    height: 90px;
+    width: 70px;
+    background-color: #EE9A4D;
+    display: flex;
+    position: relative;
+    top: -70px;
+    right: -20px;
+    border-radius: 350px 150px 250px 370px;
+}
+
+.left-ear-inner {
+    height: 50px;
+    width: 50px;
+    background-color: bisque;
+    border-radius: 350px 370px 200px 450px;
+    position: relative;
+    top: 15px;
+    left: 7px;
+
+}
+
+.right-ear-inner {
+    height: 50px;
+    width: 50px;
+    background-color: bisque;
+    border-radius: 350px 270px 400px 200px;
+    position: relative;
+    top: 15px;
+    right: -10px;
+
+
+
+}
+
+.left-eye {
+
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    border-radius: 50px 50px 50px 50px;
+    position: relative;
+    left: -1px;
+    top: -8px;
+
+
+}
+
+.right-eye {
+
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    border-radius: 50px 50px 50px 50px;
+    position: relative;
+    right: -70px;
+    top: -7px;
+
+
+}
+
+.left-eye-inner {
+    height: 10px;
+    width: 10px;
+    background-color: aliceblue;
+    border-radius: 50px 50px 50px 50px;
+    position: relative;
+    top: 8px;
+    left: 5px;
+
+}
+
+.mouth {
+    height: 20px;
+    width: 30px;
+    background-color: black;
+    border-radius: 400px 400px 700px 600px;
+    position: relative;
+    top: 30px;
+    left: 79px;
+
+}
+
+.left-shine {
+    height: 20px;
+    width: 20px;
+    background-color: aliceblue;
+    border-radius: 50px 50px 50px 50px;
+    position: relative;
+    top: 40px;
+    left: 67px;
+
+}
+
+.right-shine {
+    height: 20px;
+    width: 20px;
+    background-color: aliceblue;
+    border-radius: 50px 50px 50px 50px;
+    position: relative;
+    top: 40px;
+    right: -170px;
+    px;
+
+}
+
+.left-eyebro {
+    width: 46px;
+    height: 34px;
+    border-top: 2px solid black;
+    border-radius: 50%;
+    transform: rotate(-15deg);
+    position: absolute;
+    top: 63px;
+    left: 47px;
+}
+
+.right-eyebro {
+    width: 46px;
+    height: 34px;
+    border-top: 2px solid black;
+    border-radius: 50%;
+    transform: rotate(-15deg);
+    position: absolute;
+    top: 63px;
+    right: 47px;
+}
+
+.mouth-line {
+
+    height: 14px;
+    background-color: black;
+    width: 2px;
+    border: 2px solid black;
+    position: absolute;
+    top: 140px;
+    left: 128px;
+
+}
+
+.smile {
+    width: 55px;
+    height: 30px;
+    border-bottom: 7px solid black;
+    border-radius: 40px;
+    position: absolute;
+    top: 128px;
+    left: 104px;
+}
